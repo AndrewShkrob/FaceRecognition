@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddFaceDialog</class>
+ <widget class="QDialog" name="AddFaceDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>658</width>
+    <height>686</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>658</width>
+    <height>686</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Add Face</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="button_use_webcam">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>Использовать веб-камеру</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_open_image">
+       <property name="text">
+        <string>Загрузить из картинки</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>640</width>
+       <height>480</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>640</width>
+       <height>480</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Введите имя:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_name">
+       <property name="maxLength">
+        <number>25</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="button_cancel">
+       <property name="text">
+        <string>Отменить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_accept">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
